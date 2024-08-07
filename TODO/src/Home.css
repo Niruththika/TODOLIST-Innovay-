@@ -1,0 +1,54 @@
+/* Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    background: none;
+    border: white;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    color: #007bff;
+}
+
+.edit-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.edit-form h3 {
+    margin-top: 0;
+}
+
+.edit-form input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.edit-form button {
+    padding: 5px 5px;
+    margin-right: 10px;
+}
